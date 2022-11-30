@@ -40,12 +40,13 @@ fn respan(input: TokenStream, site: Span) -> TokenStream {
     input
         .into_iter()
         .map(|mut token| {
+            let original_span = token.span();
             if let TokenTree::Group(group) = &mut token {
                 let delimiter = group.delimiter();
                 let stream = respan(group.stream(), site);
                 *group = Group::new(delimiter, stream);
             }
-            token.set_span(token.span().resolved_at(site));
+            token.set_span(original_span.resolved_at(site));
             token
         })
         .collect()
