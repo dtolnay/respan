@@ -1,7 +1,12 @@
 [package]
 name = "respan"
 version = "0.0.0"
+authors = ["David Tolnay <dtolnay@gmail.com>"]
+description = "Macros to erase scope information from tokens"
+documentation = "https://docs.rs/respan"
 edition = "2021"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/dtolnay/respan"
 
 [lib]
 proc-macro = true
