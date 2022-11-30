@@ -1,3 +1,19 @@
+//! Macros to erase scope information from tokens.
+//!
+//! # Example
+//!
+//! ```no_run
+//! #![forbid(unsafe_code)]
+//!
+//! fn main() {
+//!     let ptr = 1337 as *const i32;
+//!     let value = respan::call_site! {
+//!         unsafe { *ptr }
+//!     };
+//!     println!("{}", value);
+//! }
+//! ```
+
 use proc_macro::{Group, Span, TokenStream, TokenTree};
 
 #[proc_macro]
