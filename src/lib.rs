@@ -22,6 +22,8 @@
 //! }
 //! ```
 
+#![allow(clippy::needless_doctest_main)]
+
 use proc_macro::{Group, Span, TokenStream, TokenTree};
 
 #[proc_macro]
