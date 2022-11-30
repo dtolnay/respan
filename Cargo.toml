@@ -2,6 +2,7 @@
 name = "respan"
 version = "0.0.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
+categories = ["rust-patterns"]
 description = "Macros to erase scope information from tokens"
 documentation = "https://docs.rs/respan"
 edition = "2021"
