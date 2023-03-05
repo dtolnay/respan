@@ -22,7 +22,7 @@
 //! }
 //! ```
 
-#![doc(html_root_url = "https://docs.rs/respan/0.1.2")]
+#![doc(html_root_url = "https://docs.rs/respan/0.1.3")]
 #![allow(clippy::needless_doctest_main)]
 
 use proc_macro::{Group, Span, TokenStream, TokenTree};
