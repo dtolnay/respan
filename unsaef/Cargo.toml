@@ -1,10 +1,10 @@
 [package]
-name = "respan"
-version = "0.1.3"
+name = "unsaef"
+version = "0.1.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 categories = ["rust-patterns"]
 description = "Macros to erase scope information from tokens"
-documentation = "https://docs.rs/respan"
+documentation = "https://docs.rs/unsaef"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/dtolnay/respan"
@@ -12,9 +12,6 @@ rust-version = "1.56"
 
 [lib]
 proc-macro = true
-
-[workspace]
-members = ["unsaef"]
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
