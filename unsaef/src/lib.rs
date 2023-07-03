@@ -1,5 +1,5 @@
 #![forbid(unsafe_code)]
-#![doc(html_root_url = "https://docs.rs/unsaef/0.1.0")]
+#![doc(html_root_url = "https://docs.rs/unsaef/0.1.1")]
 
 use proc_macro::{Delimiter, Group, Ident, Span, TokenStream, TokenTree};
 
