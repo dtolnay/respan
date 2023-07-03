@@ -2,7 +2,7 @@
 name = "respan"
 version = "0.1.3"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-categories = ["rust-patterns"]
+categories = ["rust-patterns", "no-std", "no-std::no-alloc"]
 description = "Macros to erase scope information from tokens"
 documentation = "https://docs.rs/respan"
 edition = "2021"

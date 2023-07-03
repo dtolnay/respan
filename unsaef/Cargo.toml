@@ -2,7 +2,7 @@
 name = "unsaef"
 version = "0.1.0"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
-categories = ["rust-patterns"]
+categories = ["rust-patterns", "no-std", "no-std::no-alloc"]
 description = "Macros to erase scope information from tokens"
 documentation = "https://docs.rs/unsaef"
 edition = "2021"
