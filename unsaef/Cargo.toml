@@ -1,6 +1,6 @@
 [package]
 name = "unsaef"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["David Tolnay <dtolnay@gmail.com>"]
 categories = ["rust-patterns", "no-std", "no-std::no-alloc"]
 description = "Macros to erase scope information from tokens"
